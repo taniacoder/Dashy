@@ -1,0 +1,90 @@
+.row {
+	margin: 0;
+}
+.black-bg{
+	    background-color: #424A5D;
+	    height: 50px;
+	    padding: 7px 11px 10px 14px;
+	    color: #fff;
+	    border-bottom: 1px solid #2B313D;
+}
+.sidebar-toggle-box {
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+}
+.visible-xs {
+	float: left;
+}
+.logo {
+	text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 5px;
+    padding-left: 15px;
+}
+.top-menu {
+	border-radius: 5px;
+    background-color: #9C4C9D;
+    float: right;
+}
+.top-menu  .nav > li > a {
+	color: #fff;
+	padding: 6px 15px;
+
+}
+/*side*/
+#sidebar  {
+	background-color: #424A5D;
+	padding: 1%;
+	float: left;
+	height: 1000px;
+}
+.sidebar-menu{
+	color: #fff;
+	padding-left: 0px;
+}
+.sub-menu {
+	text-decoration: none;
+	list-style: none;
+}
+.sub-menu a {
+	background-color: #424A5D;
+	padding: 13px 63px 13px 10px;
+    width: 100%;
+    margin-bottom: 2%;
+    display: block;
+    color: #fff;
+    text-decoration:none;
+}
+.sub-menu a:hover {
+	background-color: #9C4C9D;
+}
+@media screen and (max-width: 767px) {
+	.visible-xs	{	
+		position: relative;
+	    left: 15px;
+	}
+
+}
+/*fomr_component*/
+#login-page {
+	background-color: #F2F2F2;
+}
+.form-login {
+	margin: 112px auto;
+    width: 28%;
+    background-color: #fff;
+    
+}
+.form-login-heading {
+	background-color: #65DEEF;
+	padding: 5%;
+	color: #fff;
+    text-align: center;
+    border-radius: 5px 5px 0 0;
+}
+.login-wrap {
+	padding:6%;
+	    border-radius: 0 0 5px 5px;
+}

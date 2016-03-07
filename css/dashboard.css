@@ -1,0 +1,160 @@
+/*css del menu*/
+.row {
+	margin: 0;
+}
+.black-bg{
+	    background-color: #424A5D;
+	    height: 50px;
+	    padding: 7px 11px 10px 14px;
+	    color: #fff;
+	    border-bottom: 1px solid #2B313D;
+}
+.sidebar-toggle-box {
+	float: left;
+	font-size: 1.7em;
+	color: #fff;
+}
+.visible-xs {
+	float: left;
+}
+.logo {
+	text-decoration: none;
+    color: #fff;
+    position: relative;
+    top: 5px;
+    padding-left: 15px;
+}
+.top-menu {
+	border-radius: 5px;
+    background-color: #9C4C9D;
+    float: right;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    text-decoration: none;
+    background-color: #9C4C9D;
+    border-radius: 5px;
+}
+.top-menu  .nav > li > a {
+	color: #fff;
+	padding: 6px 15px;
+
+}
+/*side*/
+#sidebar  {
+	background-color: #424A5D;
+	padding: 1%;
+	float: left;
+	height: 1000px;
+}
+.sidebar-menu{
+	color: #fff;
+	padding-left: 0px;
+}
+.sub-menu {
+	text-decoration: none;
+	list-style: none;
+}
+.sub-menu a {
+	background-color: #424A5D;
+	padding: 13px 63px 13px 10px;
+    width: 100%;
+    margin-bottom: 2%;
+    display: block;
+    color: #fff;
+    text-decoration:none;
+}
+.sub-menu a:hover {
+	background-color: #9C4C9D;
+}
+@media screen and (max-width: 767px) {
+	.visible-xs	{	
+		position: relative;
+	    left: 15px;
+	}
+
+}
+/*dashboard*/
+.site-min-height {
+	display: -webkit-box;
+
+}
+.main-chart {
+		background-color: #F2F2F2; 
+		color: #989898;
+		padding-top: 2%;
+}
+.box0 {
+	padding-top: 3%;
+}
+.box0:hover {
+    background: #ffffff;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.box0 p {
+	    text-align: center;
+    font-size: 12px;
+    color: #f2f2f2;
+}
+.box0:hover p {
+    color: #ff8b63;
+}
+
+.box1 {
+	    color: #989898;
+    text-align: center;
+    font-size: 2em;
+    border-bottom: 1px solid #989898;
+}
+.box0:hover .box1 {
+    border-bottom: 1px solid #ffffff;
+}
+.page-header {
+	color: #989898;
+}
+.ds h3 {
+	background-color: #9C4C9D;
+	padding: 13px 63px 13px 10px;
+    color: #fff;
+    font-size: 1em;
+    text-align: center;
+}
+.desc {
+	display: flex;
+	border-bottom: 0.5px solid #ccc;
+	padding: 5%;
+}
+.thumb {
+	margin-right: 5%;
+
+}
+.bg-theme {
+	color: #fff;
+	background-color: #67DEEF;
+}
+.details {
+	line-height: 117%;
+    font-size: 0.86em;
+}
+
+/*basic tables*/ 
+body {
+	background-color: #F2F2F2; 
+}
+
+#main-content {
+	display: flex;
+
+}
+.wrapper {
+	width: 100%;
+	color: #989898;
+}
+.wrapper h3 {
+	margin-left: 1%;
+}
+.content-panel {
+	background-color: #fff;
+    padding: 1%;
+    box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.75);
+    margin-bottom: 3%;
+}
